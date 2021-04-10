@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自制UI组件</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --button-height: 32px;
+      --font-size: 14px;
+      --button-bg: white;
+      --button-active-color: #eee;
+      --border-radius: 4px;
+      --color: #333;
+      --border-color: #999;
+      --border-color-hover: #666;
+    }
+    #app {
+      margin: 20px;
+    }
+    body {
+      font-size: var(--font-size);
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <g-button>
+      这是一个按钮
+    </g-button>
+    <g-button icon="iconshezhi" icon-position="left">
+      这是一个按钮
+    </g-button>
+    <g-button icon="iconshezhi" icon-position="right">
+      这是一个按钮
+    </g-button>
+  </div>
+
+  <!-- 整个应用程序的入口 -->
+  <script src="./src/app.js"></script>
+  <script src="http://at.alicdn.com/t/font_2474435_w9icipad43.js"></script>
+</body>
+</html>

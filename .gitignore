@@ -2,6 +2,8 @@
 node_modules/
 /dist/
 npm-debug.log*
+note.md*
+yarn.lock*
 yarn-debug.log*
 yarn-error.log*
 /test/unit/coverage/
